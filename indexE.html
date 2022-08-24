@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Will Wen's Main Page</title>
+  <link rel="stylesheet" type="text/css" href="style1.css"/>
+</head>
+<body>
+<div class="home">
+  <div class="content">
+    <div class="stars"></div>
+    <img class="bgc" src="./img/ff.jpeg" width="100%" alt="">
+    <h3 class="title">Welcome To Will Wen's Main Page</h3>
+    <h3 class="titles">KEEP CALM AND CARRY ON </h3>
+    <img class="icon" src="./img/arrow.png" alt="">
+    <div class='ribbon'>
+      <a href='./indexE.html'><span>Home</span></a>
+      <a href='./aboutE.html'><span>About</span></a>
+      <a href='./skillE.html'><span>Skill</span></a>
+    </div>
+  </div>
+
+  <h6 align="right" >
+    <a href='./index.html'>中文</a> / <a href='./indexE.html'>English</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+  </h6>
+
+  <div class="icons">
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/hall.jpeg" alt="">
+      <span>Geisel Library is where we are heading every day</span>
+    </div>
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/64.jpeg" alt="">
+      <span>Struggling with what to eat for lunch</span>
+    </div>
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/view.jpeg" alt="">
+      <span>You can relax on the hill at Canyon Vista</span>
+    </div>
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/housing.jpeg" alt="">
+      <span>Say goodnight to the world after another busy day</span>
+    </div>
+  </div>
+  <div class="introduce">
+    <div class="introduce_item">
+      <img class="introduce_item_img" src="./img/Boston.PNG" alt="">
+      <span class="introduce_item_title">A trip to Boston in 2019: having seen attractive landscapes, dream schools, and, more importantly, friends that haven't seen for a long time.</span>
+    </div>
+    <div class="introduce_item">
+
+      <span class="introduce_item_titles">In the summer of 2019, we luckily witnessed the gorgeous sunset on the first day in Taiwan and recorded it with a camara.</span>
+      <img class="introduce_item_img" src="./img/Taiwan.jpg" alt="">
+    </div>
+    <div class="introduce_item">
+      <img class="introduce_item_img" src="./img/Yunnan.jpeg" alt="">
+      <span class="introduce_item_title">Our recent trip to Yunnan in 2020 was a little rushed, but it turned out to be an unforgettable visual feast.</span>
+    </div>
+    <div class="introduce_item">
+      <span class="introduce_item_titles">      In the Rubik's Cube competition at UCSD, I fortunately passed into the 17 SEC mark, and even now I am still able to recall the tense and exciting atmosphere.</span>
+      <img class="introduce_item_img" src="./img/Rubik's.jpg" alt="">
+    </div>
+  </div>
+  <audio autoplay="autoplay" id="audio" loop="loop">
+    <source src="./video/again.mp3" type="audio/MP3">
+  </audio>
+  <img class="music_img" src="./img/music_logo.png" alt="">
+</div>
+
+</body>
+<script>
+    let music = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            music.play();
+        }, 2000);
+    }, false);
+</script>
+
+</html>
